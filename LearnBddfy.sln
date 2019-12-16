@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnBddfy.Cli", "LearnBddfy.Cli\LearnBddfy.Cli.csproj", "{DCBB3C03-4BF6-40C8-AE64-9B3526834AF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnBddfy.Tests", "LearnBddfy.Tests\LearnBddfy.Tests.csproj", "{990B9E38-E81C-416B-A633-FB5D2747D64A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnBddfy.Core", "LearnBddfy.Core\LearnBddfy.Core.csproj", "{EBA9B43D-D52C-459C-AF92-462D24CE19D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCBB3C03-4BF6-40C8-AE64-9B3526834AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBB3C03-4BF6-40C8-AE64-9B3526834AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBB3C03-4BF6-40C8-AE64-9B3526834AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBB3C03-4BF6-40C8-AE64-9B3526834AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990B9E38-E81C-416B-A633-FB5D2747D64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990B9E38-E81C-416B-A633-FB5D2747D64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990B9E38-E81C-416B-A633-FB5D2747D64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990B9E38-E81C-416B-A633-FB5D2747D64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA9B43D-D52C-459C-AF92-462D24CE19D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA9B43D-D52C-459C-AF92-462D24CE19D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA9B43D-D52C-459C-AF92-462D24CE19D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA9B43D-D52C-459C-AF92-462D24CE19D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
