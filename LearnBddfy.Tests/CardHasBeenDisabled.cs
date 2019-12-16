@@ -38,11 +38,5 @@ namespace LearnBddfy.Tests
         {
             _subject.Message.Should().Be(DisplayMessage.CardIsRetained);
         }
-
-        [Fact]
-        public void Execute()
-        {
-            this.BDDfy();
-        }
     }
 }

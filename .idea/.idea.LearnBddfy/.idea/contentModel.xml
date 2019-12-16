@@ -36,8 +36,11 @@
       </e>
       <e p="LearnBddfy.sln" t="IncludeFlat" />
       <e p="LearnBddfy.Tests" t="IncludeRecursive">
+        <e p="AccountHolderWithdrawsCash.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="CardHasBeenDisabled.cs" t="Include" />
+        <e p="CardHasInsufficientFunds.cs" t="Include" />
+        <e p="CardHasSufficientFunds.cs" t="Include" />
         <e p="LearnBddfy.Tests.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -46,7 +49,6 @@
             </e>
           </e>
         </e>
-        <e p="Scenario.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>

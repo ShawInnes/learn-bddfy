@@ -3,6 +3,7 @@ namespace LearnBddfy.Core
     public class Atm
     {
         public int MachineBalance { get; private set; }
+        public int DispenseValue { get; private set; }
         public bool CardIsRetained { get; private set; }
         public DisplayMessage Message { get; private set; }
 
@@ -17,7 +18,18 @@ namespace LearnBddfy.Core
             {
                 CardIsRetained = true;
                 Message = DisplayMessage.CardIsRetained;
+                return;
             }
+
+            if (card.AccountBalance < amount)
+            {
+                Message = DisplayMessage.InsufficientFunds;
+                return;
+            }
+
+            DispenseValue = amount;
+            card.AccountBalance -= amount;
+            MachineBalance -= amount;
         }
     }
 }
